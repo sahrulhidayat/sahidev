@@ -27,7 +27,7 @@ export default function Header() {
             onClick={toggleMenu}
           >
             {/* &#9776; */}
-            <div className="absolute top-4 -mt-0.5 h-[0.15rem] w-8 rounded bg-white transition-all duration-500 before:absolute before:h-[0.15rem] before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-[0.1rem] after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"></div>
+            <div className="absolute top-4 -mt-0.5 h-[0.15rem] w-8 rounded bg-white transition-all duration-500 before:absolute before:h-[0.15rem] before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-[0.15rem] after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"></div>
           </button>
           <nav className="hidden space-x-8 text-xl md:block" aria-label="main">
             <Link href="/about" className="hover:opacity-90">
